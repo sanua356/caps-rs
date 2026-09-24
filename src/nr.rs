@@ -126,9 +126,7 @@ pub const CAPGET: i64 = 90;
 #[cfg(target_arch = "loongarch64")]
 pub const CAPSET: i64 = 91;
 
-#[allow(unexpected_cfgs)]
 #[cfg(target_arch = "e2k")]
 pub const CAPGET: i64 = 184;
-#[allow(unexpected_cfgs)]
 #[cfg(target_arch = "e2k")]
 pub const CAPSET: i64 = 185;
