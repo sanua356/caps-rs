@@ -32,3 +32,6 @@ pre-release-commit-message = "cargo: caps release {{version}}"
 sign-commit = true
 sign-tag = true
 tag-message = "caps {{version}}"
+
+[patch.crates-io]
+libc = { git = "https://github.com/helce/libc", tag = "0.2.186" }
